@@ -1,0 +1,100 @@
+/* BASE --------------------------------------- */
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+h1 {
+  line-height: 0em;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 110%;
+}
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* LAYOUT ------------------------------------- */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  li {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 0.35em;
+    margin-left: 0.35em;
+    margin-bottom: 0;
+    text-decoration: underline;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin: auto;
+}
+
+input {
+  margin: 0.5em;
+}
+
+/* BLOCKS ------------------------------------- */
+
+.hero iframe {
+  max-width: 100%;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.video {
+  display: flex;
+}
+
+.tour-button,
+.submit {
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: 6px;
+  width: 8em;
+  text-align: center;
+  display: inline-block;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.submit {
+  background-color: whitesmoke;
+  border: 0.05rem solid blue;
+  color: blue;
+  margin: 0.5em auto;
+}
+
+/* MOBILE MAXIMUM */
+
+// @media screen ("max-width: 347px") {
+//   input {
+//     width: 85%;
+//   }
+// }
